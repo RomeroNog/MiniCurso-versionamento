@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-
+    // Codigo que recebe dois numeros inteiros e calcula a divisao deles
     int a,b,teste=1;
     float div;
 

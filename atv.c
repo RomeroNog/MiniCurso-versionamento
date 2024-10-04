@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-
+    //Codigo para que recebe dois numeros inteiros e realiza a soma, subtração, potencicação e multiplicação.
     int a,b,teste=1;
 
     printf("Digite o primeiro numero: ");
