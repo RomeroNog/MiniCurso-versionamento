@@ -19,5 +19,8 @@ int main()
     }
     printf("\nPotencia: %d",teste);
 
+    // multiplicação
+    printf("\nMultiplicacao: %d", a*b);
+
 return 0;
 }
