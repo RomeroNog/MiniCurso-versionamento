@@ -1,8 +1,8 @@
 #include <stdio.h>
+
 int main()
 {
-
-    int a,b,teste=1;
+    int a, b, teste = 1;
 
     printf("Digite o primeiro numero: ");
     scanf("%d",&a);
@@ -10,17 +10,18 @@ int main()
     printf("Digite o segundo numero: ");
     scanf("%d",&b);
 
-    printf("\nSoma: %d",a+b);
-    printf("\nSubtracao: %d",a-b);
+    printf("\nSoma: %d", a+b);
+    printf("\nSubtracao: %d", a-b);
 
-    for(int i=0;i<b;i++)
+    for(int i=0; i<b; i++)
     {
-        teste *=a;
+        teste *= a;
     }
-    printf("\nPotencia: %d",teste);
+
+    printf("\nPotencia: %d", teste);
 
     // multiplicação
     printf("\nMultiplicacao: %d", a*b);
 
-return 0;
+    return 0;
 }

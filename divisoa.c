@@ -6,14 +6,14 @@ int main()
     float div;
 
     printf("Digite o primeiro numero: ");
-    scanf("%d",&a);
+    scanf("%d", &a);
 
     printf("Digite o segundo numero: ");
-    scanf("%d",&b);
+    scanf("%d", &b);
 
-    div = (float)a/(float)b;
+    div = (float) a / b;
     
-    printf("A divisao eh: %.2f",div);
+    printf("A divisao eh: %.2f", div);
     
 return 0;
 }
